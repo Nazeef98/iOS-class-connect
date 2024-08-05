@@ -1,0 +1,71 @@
+# Xcode
+.DS_Store
+*.swp
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+
+# Derived data
+DerivedData/
+.idea/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+
+# Build products
+build/
+Build/
+*.o
+*.ll
+*.bc
+*.dylib
+*.a
+
+# Logs
+*.log
+*.xcactivitylog
+
+# Dependencies
+Pods/
+Carthage/
+Carthage/Build/
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# User settings
+xcuserdata/
+*.xcuserdatad
+
+# Bundles
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata
+!*.xcworkspace/xcshareddata/**
+
+# Code signing
+*.mobileprovision
+*.provisionprofile
+*.xcent
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Other
+!README.md
